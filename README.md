@@ -1,0 +1,21 @@
+
+
+1 - Crear .gitignore y README.md 
+
+2 - Iniciar el proyecto:
+git init 
+
+3 - Configuración 
+git config [--global] user.name 
+git config [--global] user.email
+git config --global core.autocrlf true (en Mac: input)
+git config --global core.editor “code --wait” 
+
+4 - Información del estado
+git status
+
+5 - Pasar al STAGE  
+git add .gitignore README.md
+
+6- Pasar al commit (versión 1)
+git commit -m "
