@@ -9,7 +9,7 @@ git init
 git config [--global] user.name 
 git config [--global] user.email
 git config --global core.autocrlf true (en Mac: input)
-git config --global core.editor “code --wait” 
+git config --global core.editor "code --wait"
 
 4 - Información del estado
 git status
