@@ -1,6 +1,12 @@
+#Copiar al terminal/consola
 git init
 git config user.name Laura
 git config user.email laura.orte7@gmail.com
 git config --global core.autocrlf true 
 git config --global core.editor "code --wait" 
 git config global init.default branch main 
+
+# Para GITHUB (al final)
+git remote add origin https://github.com/LauraOrte/git_basico.git
+git branch -M main
+git push -u origin main
