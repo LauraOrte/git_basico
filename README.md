@@ -19,5 +19,5 @@ git add .gitignore README.md
 
 6 - Pasar al commit (versión 1)
 git commit -m "README hasta el punto 5"
-git commit -a -m"README hasta el punto 6" (solo para los ficheros con M, actualiza todos)
+git commit -am "README hasta el punto 6" (solo para los ficheros con M, actualiza todos)
 
